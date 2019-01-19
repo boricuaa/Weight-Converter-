@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!--CSS Stylesheets	-->
+	
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="custom.css">
+	
+<title>Weight Converter</title>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-6 offset-3">
+				<h1 class="display-3 text-center">Weight Converter</h1>
+				
+				<form> 
+<!--
+					<select class="form-control form-control-lg mb-2" onchange="showHideInfo(this);">
+						<option id="pounds" value="Pounds">Pounds</option>
+						<option id="grams" value="grams">Grams</option>
+						<option id="kilograms" value="Kilograms">Kilograms</option>
+						<option id="ounces" value="Ounces">Ounces</option>
+					</select>
+-->
+					<div id="form-input" class="form-group">
+						<input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds...">
+					</div>
+				</form>
+				
+				<div id="output">
+				<div class="card card-1 mb-2">
+					<div class="card-block">
+						<h4>Grams:</h4>
+						<div id="gramsOutput"></div>
+					</div>
+				</div>
+				
+				<div class="card card-2 mb-2">
+					<div class="card-block">
+						<h4>Kilograms:</h4>
+						<div id="kgOutput"></div>
+					</div>
+				</div>
+				
+				<div class="card card-3 mb-2">
+					<div class="card-block">
+						<h4>Ounces:</h4>
+						<div id="ozOutput"></div>
+					</div>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+		
+<!--js files-->
+<script type="text/javascript" src="main.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: url("images/gym.jpg");
+	background-size: auto;
+	background-position: center right;
+  	background-repeat: no-repeat;
+  	background-attachment: inherit;
+	margin-top: 70px;
+	color: #ffffff;
+}
+
+.card {padding: 10px;}
+.card-1 {background: #17a2b8;}
+.card-2 {background: #28a745}
+.card-3 {background: #dc3545}
