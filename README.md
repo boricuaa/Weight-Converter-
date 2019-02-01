@@ -12,3 +12,5 @@ Example:
 Change to Grams, and convert to Pounds, Kilograms, Ounces.
 Change ot Kilograms, and convert to Pounds, Grams, Ounces.
 etc….
+
+The dropdown is commented out on the html file.
